@@ -1,0 +1,55 @@
+
+h2 {color: blue; font-family: Arial;}
+
+p { color: navy; font-size: 14px;}
+
+.heading { color: rgb(5, 97, 97);}
+.uppercase {text-transform:uppercase}        
+#about {font-family: cursive; text-transform: capitalize;} 
+h2.contactform {font-family: bold;}
+.list li {color: navy;}
+h1, h4 {font-family: calibri;}
+body {font-family: calibri;}
+h1 {text-align: left; font-family: cursive; color: teal;}
+#contactsection {background-color: coral;}
+table, th, td {border: 2px solid black; border-collapse: collapse; padding: 10px;}
+img {border-radius: 100%;
+    display: block;}
+#aboutsection {
+    padding: 10px; min-width: 500px; max-width: 2000px;}
+    /*style the top navigation*/
+.topnav{ position: fixed; top: 0; width: 100%; background-color: white;}
+.topnav a{float: right; display: block;text-align: left; padding: 14px 16px; text-decoration: none;}
+main{margin-top: 20px;}
+header{margin-top: 50px;}
+h3 {color: teal; font-family: cursive;}
+#aboutsection {background-color: coral;}
+#headersection {background-color: rgb(206, 250, 104);}
+.topnav .icon { display: none;}
+/*When the screen is less than 600 pixels wide, hide all 
+links. Show the iconthat should open and close the nav (.icon)*/
+@media only screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the use clicks
+on the icon. This class makes the topnav look good on small screens 
+(display the links vertically instead of horizontally) */
+@media only screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: fixed;
+    }
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+}
