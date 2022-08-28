@@ -11,7 +11,6 @@ h2.contactform {font-family: bold;}
 h1, h4 {font-family: calibri;}
 body {font-family: calibri;}
 h1 {text-align: left; font-family: cursive; color: teal;}
-#contactsection {background-color: coral;}
 table, th, td {border: 2px solid black; border-collapse: collapse; padding: 10px;}
 img {border-radius: 100%;
     display: block;}
@@ -23,7 +22,6 @@ img {border-radius: 100%;
 main{margin-top: 20px;}
 header{margin-top: 50px;}
 h3 {color: teal; font-family: cursive;}
-#aboutsection {background-color: coral;}
 #headersection {background-color: rgb(206, 250, 104);}
 .topnav .icon { display: none;}
 /*When the screen is less than 600 pixels wide, hide all 
