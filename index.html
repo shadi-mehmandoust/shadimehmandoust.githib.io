@@ -88,19 +88,21 @@
             <a href="https://www.linkedin.com/in/shadi-g-mehmandoust-bb167960/"
             target="_blank"> LinkedIn </a> <br> <br>
             <form>
+                <form id="contactform" action="https://formspree.io/f/mjvzkpye" method="post">
                 <label for="name">* Name: </label> <br>
                 <input type="text" id="name" name="name" required>
+                <br>
+                <input type="text" name="name" id="name" required>
                 <br> <br>
                 <label for="Email"> * Email: </label> <br>
-                <input type="text" id="email" name="email" required pattern="[a-z0-9._%+-]
-                +@[a-z0-9.-]+\.[a-z]{2,}$"> <br> <br>
-                <label for="Mobile (optional)"> Mobile (optional):</label> <br>
+                <input type="text" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> 
+                <br> <br>
+                <label for="Mobile"> Mobile (optional):</label> <br>
                 <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10,16}">
                 <br> <br>
                 <label for="textarea">* Leave your message below:</label>
                 <br>
-                <textarea id="message" name="textarea" rows="5" cols="30"
-                required>
+                <textarea id="message" name="textarea" rows="5" cols="30" required>
                 </textarea>
                 <br> <br>
                 <input type="submit">
